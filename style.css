@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: grey;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 120px;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+button {
+    width: 80px;
+    border: none;
+    outline: none;
+}
+
+section {
+    width: 550px;
+    margin: 40px auto;
+    height: 550px;
+    position: relative;
+    text-align: center;
+    background: white;
+}
+
+img {
+    width: 250px;
+    height: 350px;
+}
